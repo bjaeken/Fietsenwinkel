@@ -1,0 +1,466 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*eigen code*/
+
+body {
+    margin: 0;
+    background-color: #d8d6d6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: white;
+}
+
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background-color: #8B4513;
+
+}
+
+header nav ul {
+    float: left;
+} 
+
+header nav ul li {
+    float: left;
+    list-style: none;
+} 
+
+
+header nav ul li a {
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 60px;
+    padding-right: 50px;
+    display: block;
+    padding: 0px 10px 0px 10px;
+} 
+/* li class */
+
+.Welkom {
+    float: left;
+    list-style: none;
+    font-family: Arial;
+    font-size: 16px;
+    color: #afafaf;
+    line-height: 60px;
+    padding-right: 50px;
+    display: block;
+    padding: 0px 10px 0px 10px;
+
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc; 
+    font-family: Arial;
+    font-size: 14px;
+    color: #111;
+    line-height: 30px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #b57648; 
+    font-family: Arial;
+    font-size: 14px;
+    color: #111;
+   cursor: pointer;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc; 
+}
+
+header .nav-login a {
+    display: block;
+    height: 60px;
+    border: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #F5F5F5;
+    line-height: 63px;
+    cursor: pointer;
+    padding: 0px 10px;
+} 
+
+.main-container {
+    padding: 40px;
+}
+
+.main-container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #111;
+    line-height: 50px;
+    text-align: center;
+}
+
+/*signup.php*/
+
+.signup-form {
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 30px;
+}
+
+.signup-form input {
+    
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    background-color: #fff; 
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    margin-bottom: 4px;
+}
+
+.signup-form button{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222; 
+    font-family: Arial;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    
+    background-color: #111; 
+    
+}
+
+/* Alles op de home */
+
+#imagesh {
+    
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+#imageh {
+    box-shadow: 5px 5px 15px #888888;
+}
+
+.welcometxt {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #111;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+/* product.php */
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 560px;
+    grid-gap: 5px;
+    margin-top: 2rem;
+}
+
+.box {
+    background-color: #b6bae1;
+    text-align: center;
+}
+
+.box h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box p {
+    text-align: left;
+    padding: 0px 5px 0px 25px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#image1 {
+    height: 250px;
+    background-image: url(afbeeldingen/divap1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#image2 {
+    height: 250px;
+    background-image: url(afbeeldingen/Wayz.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#image3 {
+    height: 250px;
+    background-image: url(afbeeldingen/EspritC.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#image4 {
+    height: 250px;
+    background-image: url(afbeeldingen/Orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.info h3 {
+    font-size: 1.4rem;
+    margin: 10px 0px;
+}
+
+.info p {
+    text-align: center;
+  }
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222; 
+    font-family: Arial;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.btn:hover {
+    
+    background-color: #111; 
+    
+}
+
+#formproduct {
+    margin-top: 10px;
+}
+
+/* Over ons */
+
+#imagesoo {
+    
+    margin-top: 2rem;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+#imageo {
+    box-shadow: 5px 5px 15px #888888;
+}
+
+
+/* Werkplaats */
+
+textarea {
+    padding: 0px 5%;
+    border: none;
+    background-color: #fff;
+    font-family: Arial;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    margin: 0px 0px 4px;
+    width: 360px;
+    height: 68px;
+    resize: none;
+}
+
+.werkplaatstxt {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.werkplaatstxt h3 {
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.werkplaatstxt p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.werkplaatstxt .ptext {
+    margin-bottom: 10px;
+}
+
+.werkplaatstxt .pbottom {
+    margin-bottom: -10px;
+}
+
+/* Contact */
+
+.contacttxt {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.contacttxt h3 {
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+}
+
+.contacttxt p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.imgc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 5px;
+    align-items: center;
+}
