@@ -1,8 +1,8 @@
 <?php
 
-$dbServername = "localhost";
-$dbUsernamename = "root";
+$dbServername = "";
+$dbUsernamename = "";
 $dbPasswordname = "";
-$dbName = "dbconcurrent";
+$dbName = "";
 
 $conn = mysqli_connect($dbServername, $dbUsernamename, $dbPasswordname, $dbName);
